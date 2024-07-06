@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/feather-icon@0.1.0/css/feather.min.css">
+    </head>
+    <style>
+        .bg-beige{
+            background-color: beige;
+        }
+        .bg-grey{
+            background-color: grey;
+        }
+    </style>
+    <body>
+        <div class="flex r-flex">
+            <div class="w-64 bg-blue flex flex-col">
+                <nav class="sidebar">
+                    <a class="button side-menu  tooltip hover:bg-gray-700" href="index.html" title="Used Inline, Internal and External CSS">Day 1</a>
+                    <a class="button side-menu  tooltip active" href="day2.html" title="Created different Display, Positioning and floats">Day 2</a>
+                    <a class="button side-menu  tooltip hover:bg-gray-700" href="day3.html" title="Imported font from Google fonts and used font styles">Day 3</a>
+                    <a class="button side-menu  tooltip  hover:bg-gray-700" href="day4.html">Day 4</a>
+                    <a class="button side-menu  tooltip  hover:bg-gray-700" href="day5.html">Day 5</a>
+                    <a class="button side-menu  tooltip  hover:bg-gray-700" href="day6.html">Day 6</a>
+                </nav>
+            </div>
+            <div class="flex-1 flex flex-col">
+                <header class="nav">
+                    <p class="text-2xl font-semibold">Layouts</p>
+                </header>
+                <div class="bg-beige h-full">
+                    <div class="m-5 flex-col">
+                        <h2 class="mt-2 text-2xl">Display:</h2>
+                        <h2 class="flex">Block:<span style="display: block;"> Block</span></h2>
+                        <h2 class="flex">None:<span style="display: none;">None</span></h2>
+                        <div class="inline">
+                            <h2>Inline: <span> This</span> is inline <span>display</span></h2>
+                        </div>
+                        <div class="bg-green-200 p-3 inline-block">
+                            <h2>This</h2>
+                            <h2>Inline</h2>
+                            <h2>Block</h2>
+                        </div>
+                        <h2 class="mt-2 text-2xl">Positioning:</h2>
+                        <div class="m-2 p-2">
+                            <div class="absolute top-0 right-0 p-2 bg-green-700 text-white"> 
+                                <p>Absolute Position</p>
+                            </div> 
+                            <div class="float-right fixed" style="left: 60%;"> 
+                                <p class="bg-indigo-700 text-white p-2">Fixed Position</p> 
+                            </div>
+                            <div class="static">
+                                <p class="bg-indigo-700 text-white p-2 inline">static Position</p> 
+                            </div><br>
+                            <div class="relative p-2 inline-block bg-indigo-700 text-white">
+                                <p>Relative Position</p> 
+                            </div>
+                            <div class="mt-2  bg-green-200 h-24 overflow-auto"> 
+                                <div> 
+                                    <div class="p-2 sticky top-0 bg-indigo-700 text-white text-right"> 
+                                        Sticky Position 1 
+                                    </div> 
+                                    <p class="py-4"> 
+                                        How many times were you frustrated while looking out    
+                                        for a good collection of programming/algorithm/interview   
+                                        questions? What did you expect and what did you get?    
+                                        This portal has been created to provide well written,    
+                                        well thought and well explained solutions for selected    
+                                        questions. 
+                                    </p> 
+                              
+                                </div> 
+                                <div> 
+                                    <div class="p-2 sticky top-0 bg-indigo-700 text-white text-right"> 
+                                        Sticky Position 2 
+                                    </div> 
+                                    <p class="py-4"> 
+                                        How many times were you frustrated while looking out    
+                                        for a good collection of programming/algorithm/interview   
+                                        questions? What did you expect and what did you get?    
+                                        This portal has been created to provide well written,    
+                                        well thought and well explained solutions for selected    
+                                        questions. 
+                                     </p> 
+                              
+                                </div> 
+                                <div> 
+                                    <div class="p-2 sticky top-0 bg-indigo-700 text-white text-right"> 
+                                        Sticky Position 3 
+                                    </div> 
+                                    <p class="py-4"> 
+                                        How many times were you frustrated while looking out    
+                                        for a good collection of programming/algorithm/interview   
+                                        questions? What did you expect and what did you get?    
+                                        This portal has been created to provide well written,    
+                                        well thought and well explained solutions for selected    
+                                        questions. 
+                                    </p> 
+                              
+                                </div> 
+                                </div> 
+                        </div>
+                        <h2 class="mt-2 text-2xl">Float:</h2>
+                        <div class="mx-10">
+                            <img class="float-right p-2" src="images/gwc.png">
+                            <div class="text-justify">
+                                <p>As a trusted NASSCOM member and a specialist in data analytics and Artificial Intelligence solutions provider, GWC places customer-centricity at the center. Our core values encompass:</p>
+                                <ul class="ml-4 md:list-disc">
+                                    <li>Problem-solving prowess</li>
+                                    <li>Continuous pursuit of value addition</li>
+                                    <li>A strong emphasis on technology</li>
+                                    <li>Innovation in everything</li>
+                                    <li>Being an extended arm for business partners</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

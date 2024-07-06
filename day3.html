@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+    <style>
+        .bg-beige{
+            background-color: beige;
+        }
+        body{
+            font-family: "Poppins", sans-serif;
+        }
+    </style>
+    <body>
+        <div class="r-flex flex">
+            <div class="w-64 bg-blue flex flex-col"> 
+                <div class="sidebar">
+                    <a class="button side-menu  tooltip hover:bg-gray-700" href="index.html" title="Used Inline, Internal and External CSS">Day 1</a>
+                    <a class="button side-menu  tooltip hover:bg-gray-700" href="day2.html" title="Created different Display, Positioning and floats">Day 2</a>
+                    <a class="button side-menu  tooltip active" href="day3.html" title="Imported font from Google fonts and used font styles">Day 3</a>
+                    <a class="button side-menu  tooltip hover:bg-gray-700" href="day4.html">Day 4</a>
+                    <a class="button side-menu  tooltip hover:bg-gray-700" href="day5.html">Day 5</a>
+                    <a class="button side-menu  tooltip hover:bg-gray-700" href="day6.html">Day 6</a>
+                </div>
+            </div>
+            <div class="flex-1 flex flex-col">
+                <header class="nav">
+                    <p class="text-2xl font-semibold">Layouts</p>
+                </header>
+                <div class="bg-beige h-full">
+                    <div class="p-5">
+                        <h2>Font Style:Italic</h2>
+                        <p class="bg-green-200 ml-4" style="font-style:italic;">JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit 
+                            there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video</p>
+                        <h2 class="mt-5">Font Size:Larger Font</h2>
+                        <p class="bg-gray-700 text-white ml-4" style="font-size: larger;">JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit 
+                            there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video</p>
+                        <h2 class="mt-5">Font Weight:Font Weight 600</h2>
+                        <p class="bg-blue-700 text-white ml-4" style="font-weight: 600;">JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit 
+                            there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video</p>
+                        <h2 class="mt-5" style="text-align: center;">Text Align:<span>Text Align Center</span></h2>
+                        <h2 class="mt-5">Text Underline:<span class="underline">Text Underline</span></h2>
+                        <h2 class="mt-5">Text Line-Through:<span class="line-through">Text Line-Through</span></h2>
+                    </div>
+                </div>
+                <div class="bg-beige mt-15"></div>
+            </div>
+        </div>
+    </body>
+</html>

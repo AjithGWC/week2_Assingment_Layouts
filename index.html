@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <style>
+        .bg-beige{
+            background-color: beige;
+        }
+        #Internal{
+            color: green;
+        }
+        p{
+            font-size: larger;
+        }
+    </style>
+    <body>
+        <div class="flex r-flex">
+            <div class="w-64 bg-blue flex flex-col">
+                <div class="sidebar">
+                    <a class="button side-menu  tooltip active" href="index.html" title="Used Inline, Internal and External CSS">Day 1</a>
+                    <a class="button side-menu  tooltip  hover:bg-gray-700" href="day2.html" title="Created different Display, Positioning and floats">Day 2</a>
+                    <a class="button side-menu  tooltip  hover:bg-gray-700" href="day3.html" title="Imported font from Google fonts and used font styles">Day 3</a>
+                    <a class="button side-menu  tooltip  hover:bg-gray-700" href="day4.html">Day 4</a>
+                    <a class="button side-menu  tooltip  hover:bg-gray-700" href="day5.html">Day 5</a>
+                    <a class="button side-menu  tooltip  hover:bg-gray-700" href="day6.html">Day 6</a>
+                </div>
+            </div>
+            <div class="flex-1 flex flex-col">
+                <header class="nav">
+                    <p class="text-2xl font-semibold">Layouts</p>
+                </header>
+                <div class="bg-beige">
+                    <div class="m-5 flex-col mt-5">
+                        <h2>Inline CSS:</h2>
+                        <div class="bg-gray-700 p-2 mt-2">
+                            <p style="color:red;">JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit 
+                                there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video</p>
+                        </div>
+                        <h2 class="mt-10">Internal CSS:</h2>
+                        <div class="bg-green-200 mt-5">
+                            <p id="Internal">JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit 
+                                there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video</p>
+                        </div>
+                        <h2 class="mt-10">External CSS:</h2>
+                        <div class="bg-red-700 mt-5">
+                            <p class="external">JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit 
+                                there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video</p>
+                        </div>
+                        <div class="bg-beige mt-15"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
